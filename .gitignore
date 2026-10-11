@@ -1,0 +1,30 @@
+﻿# .NET build output
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+
+# Test results and coverage
+**/TestResults/
+**/coverage/
+
+# Node.js and Angular
+**/node_modules/
+**/dist/
+**/.angular/
+**/coverage/
+
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+**/appsettings.Development.json
+**/appsettings.Local.json
+secrets.json
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
